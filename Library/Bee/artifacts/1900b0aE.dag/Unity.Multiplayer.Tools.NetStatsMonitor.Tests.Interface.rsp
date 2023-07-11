@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -338,15 +339,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Component/RnsmComponentTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Component/RnsmHelper.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/CounterConfigurationTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/DisplayElementConfigurationTest.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/GraphConfigurationTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/LineGraphConfigurationTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/MetricsUtilsTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/PositionConfigurationTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Interface/Configuration/RuntimeNetStatsMonitorTest.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Component/RnsmComponentTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Component/RnsmHelper.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/CounterConfigurationTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/DisplayElementConfigurationTest.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/GraphConfigurationTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/LineGraphConfigurationTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/MetricsUtilsTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/PositionConfigurationTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Interface/Configuration/RuntimeNetStatsMonitorTest.cs"
 -langversion:9.0
 
 /deterministic

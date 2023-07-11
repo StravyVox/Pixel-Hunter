@@ -117,6 +117,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -346,26 +347,19 @@
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricEvents.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricTypes.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStats.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Component.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/Dispatch/ITestDataTracker.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/Dispatch/TestDataTracker.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/MetricObserverFactory.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/RnsmMetricObserverFactory.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/Definitions/Adjectives.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/Definitions/Nouns.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/Definitions/Verbs.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/TestDataDefinition.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/TestDataDispatcher.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/TestDataGenerator.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/TestDataGeneratorComponent.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsReporting/Runtime/TestData/TestDataTrends.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/MetricObserverFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/Definitions/Adjectives.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/Definitions/Nouns.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/Definitions/Verbs.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/TestDataDefinition.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/TestDataDispatcher.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsReporting/Runtime/TestData/TestDataGeneratorComponent.cs"
 -langversion:9.0
 
 /deterministic

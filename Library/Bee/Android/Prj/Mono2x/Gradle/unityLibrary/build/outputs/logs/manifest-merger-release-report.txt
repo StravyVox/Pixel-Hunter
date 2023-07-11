@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:70-98
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:99-145
 	android:versionCode
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:11-69
@@ -35,6 +35,8 @@ ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\u
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
 	android:hardwareAccelerated
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+	android:exported
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
 	android:resizeableActivity
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
 	android:configChanges
@@ -105,32 +107,36 @@ ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\u
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
 	android:name
 		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+supports-gl-texture#GL_IMG_texture_compression_pvrtc
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-74
+	android:name
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:24-71
 uses-permission#android.permission.INTERNET
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-65
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
 	android:name
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:20-62
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-77
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-77
 	android:name
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-74
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-74
 uses-feature#android.hardware.touchscreen
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-88
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-88
 	android:required
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-85
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-85
 	android:name
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-60
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-99
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-99
 	android:required
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:72-96
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:72-96
 	android:name
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-71
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-108
+ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-108
 	android:required
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:81-105
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:81-105
 	android:name
-		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+		ADDED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-80
 uses-sdk
 INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml

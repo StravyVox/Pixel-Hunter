@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.DefaultCompany.PixelHunter",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "27"
       }
     }
   ]

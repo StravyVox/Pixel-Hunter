@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -330,29 +331,31 @@
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.Adapters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricEvents.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricTestData.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricTypes.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStats.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStats.Tests.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Component.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStatsReporting.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Component/RnsmCustomDataDisplayUpdateTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Component/RnsmDisplayUpdateStatus.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Component/RnsmDisplayUpdateTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Component/RnsmTestHarness.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Component/RnsmVisibilityTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Graphing/GraphScalingUtilsTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/Stats/StatHistoryRequirementsTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/UI/CounterVisualElementTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphBoundsTransformerTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphDataSamplerTests.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphInputSynchronizerTest.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Component/RnsmCustomDataDisplayUpdateTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Component/RnsmDisplayUpdateStatus.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Component/RnsmDisplayUpdateTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Component/RnsmTestHarness.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Component/RnsmVisibilityTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Graphing/GraphScalingUtilsTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/Stats/StatHistoryRequirementsTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/UI/CounterVisualElementTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphBoundsTransformerTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphDataSamplerTests.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Tests/Implementation/UI/Graphs/GraphInputSynchronizerTest.cs"
 -langversion:9.0
 
 /deterministic

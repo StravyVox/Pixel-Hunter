@@ -1,11 +1,13 @@
+Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.Adapters.ref.dll_06015E8ACD63AE79.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.Common.ref.dll_F418D3A5857884B0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.MetricEvents.ref.dll_9142329BE4154E5E.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.MetricTestData.ref.dll_533F702A2D77C5B1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.MetricTypes.ref.dll_80FA98BD8104E5AA.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStats.Tests.Editor.ref.dll_93B52855C41BA097.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStats.ref.dll_357CDFCE60E2E6D7.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStatsMonitor.Component.ref.dll_554308FCB53D8828.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.ref.dll_7E50882319DAB4C1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.ref.dll_1ADF693E9C8C61ED.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Tools.NetStatsReporting.ref.dll_066DFACD0C0803AD.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.TestRunner.ref.dll_E55D0F7C63F01D9E.mvfrm

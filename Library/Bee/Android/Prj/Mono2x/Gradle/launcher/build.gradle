@@ -5,8 +5,8 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.2'
+    compileSdkVersion 34
+    buildToolsVersion '30.0.0'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -14,8 +14,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
-        targetSdkVersion 30
+        minSdkVersion 27
+        targetSdkVersion 34
         applicationId 'com.DefaultCompany.PixelHunter'
         ndk {
             abiFilters 'armeabi-v7a'

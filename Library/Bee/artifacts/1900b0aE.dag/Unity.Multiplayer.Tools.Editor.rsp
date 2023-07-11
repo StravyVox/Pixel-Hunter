@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -351,15 +352,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/NetStatsMonitor/NetStatsMonitorBuildLogEntry.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/NetStatsMonitor/NetStatsMonitorBuildSettings.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/NetStatsMonitor/NetStatsMonitorBuildSymbol.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/NetStatsMonitor/NetStatsMonitorSettingsMenu.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/ProjectSettings.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/ProjectSettingsMenu.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/ProjectSettingsProvider.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/Editor/Settings/UssClassNames.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/GenerateLinkXml.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/BuildSettings.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/BuildSymbol.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/NetStatsMonitor/NetStatsMonitorBuildSettings.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ProjectSettings.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ProjectSettingsMenu.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ProjectSettingsProvider.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ToolBuildLogEntry.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ToolList.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/ToolSettingsMenu.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/Editor/Settings/UssClassNames.cs"
 -langversion:9.0
 
 /deterministic

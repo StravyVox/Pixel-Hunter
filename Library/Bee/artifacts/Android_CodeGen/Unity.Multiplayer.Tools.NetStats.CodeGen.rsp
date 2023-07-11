@@ -117,6 +117,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -207,7 +208,6 @@
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
--r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
@@ -340,15 +340,15 @@
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Pdb.dll"
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Rocks.dll"
 -r:"Library/Bee/artifacts/Android_CodeGen/Unity.Multiplayer.Tools.NetStats.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/AssemblyProcessorMain.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/CodeGenHelpers.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/EventPayloadRegistrationAssemblyProcessor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/IAssemblyProcesor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/IAssemblyProcessingLogger.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/MetricIdTypeRegistrationAssemblyProcessor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/PostProcessorAssemblyResolver.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/PostProcessorReflectionImporter.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStats/CodeGen/PostProcessorReflectionImporterProvider.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/AssemblyProcessorMain.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/CodeGenHelpers.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/EventPayloadRegistrationAssemblyProcessor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/IAssemblyProcesor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/IAssemblyProcessingLogger.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/MetricIdTypeRegistrationAssemblyProcessor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/PostProcessorAssemblyResolver.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/PostProcessorReflectionImporter.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStats/CodeGen/PostProcessorReflectionImporterProvider.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

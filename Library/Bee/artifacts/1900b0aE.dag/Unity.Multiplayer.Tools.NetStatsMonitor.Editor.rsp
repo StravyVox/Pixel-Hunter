@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -354,16 +355,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/CounterConfigurationDrawer.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/CustomTestDataGeneratorEditor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/DisplayElementConfigurationDrawer.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/GraphConfigurationDrawer.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/MetricIdPropertyDrawer.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/NetStatsMonitorConfigurationEditor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/PositionConfigurationDrawer.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/RuntimeNetStatsMonitorEditor.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetStatsMonitor/Editor/Inspector/Util/CustomInspectorUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/CounterConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/CustomTestDataGeneratorEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/DisplayElementConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/GraphConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/MetricIdPropertyDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/NetStatsMonitorConfigurationEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/PositionConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/RuntimeNetStatsMonitorEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetStatsMonitor/Editor/Inspector/Util/CustomInspectorUtils.cs"
 -langversion:9.0
 
 /deterministic

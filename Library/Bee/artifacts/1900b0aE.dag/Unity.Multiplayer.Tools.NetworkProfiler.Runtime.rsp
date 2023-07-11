@@ -117,6 +117,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -344,26 +345,25 @@
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"E:/UnityProjects/Pixel Hunter/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.Adapters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.MetricTypes.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Tools.NetStats.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/ByteCounterFactory.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/CounterWrapper.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/EventCounterFactory.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/ICounter.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/ICounterFactory.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/MetricByteCounters.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/MetricCounters.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/MetricEventCounters.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Counter/ProfilerCounters.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/ExtensibilityProfiler/ExtensibilityProfilerMetricObserver.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Frame/FrameInfo.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/LegacyProfiler/LegacyProfilerMetricObserver.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/Models/Profiler/BytesSentAndReceived.cs"
-"Library/PackageCache/com.unity.multiplayer.tools@1.0.0/NetworkProfiler/Runtime/ProfilerMetricObserverFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/ByteCounterFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/CounterWrapper.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/EventCounterFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/ICounter.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/ICounterFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/MetricByteCounters.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/MetricCounters.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/MetricEventCounters.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Counter/ProfilerCounters.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Frame/FrameInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/Models/Profiler/BytesSentAndReceived.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.0/NetworkProfiler/Runtime/ProfilerAdapterEventListener.cs"
 -langversion:9.0
 
 /deterministic
