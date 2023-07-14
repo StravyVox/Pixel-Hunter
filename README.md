@@ -12,3 +12,4 @@
 
 <h2>Main game process. Every player has their own color and healthbar</h2>
 ![image](https://github.com/StravyVox/Pixel-Hunter/assets/79334343/577898ad-6dfe-4ccf-ba27-d701090c12c9)
+![image](https://github.com/StravyVox/Pixel-Hunter/assets/79334343/2e23e95f-f7b5-4575-98b4-1afa25f4a5a7)
