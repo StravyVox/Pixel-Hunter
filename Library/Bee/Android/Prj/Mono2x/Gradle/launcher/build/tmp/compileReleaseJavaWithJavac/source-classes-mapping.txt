@@ -1,2 +1,0 @@
-com/DefaultCompany/PixelHunter/BuildConfig.java
- com.DefaultCompany.PixelHunter.BuildConfig
