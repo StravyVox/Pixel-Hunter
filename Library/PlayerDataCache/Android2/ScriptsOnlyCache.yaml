@@ -1,10 +1,31 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraFollow
     - CharacterController
+    - CoinsGenerator
+    - CoinsPool
+    - CollissionController
+    - ConnectionInfo
+    - FixedMoveByX
     - FloatingJoystick
+    - HP
+    - InGameUIController
     - InputController
+    - InputMessageController
+    - LobbyManager
+    - LobbyUIManager
+    - MovementController
+    - PlayerCollissionController
+    - PlayerUIController
+    - ProgressBar
+    - RelayController
+    - SceneLoadingController
+    - ScoreManager
     - ServerController
+    - SessionManager
+    - ShootController
+    - TTL
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -26,21 +47,22 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
     Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll:
+    - Unity.Multiplayer.Samples.Utilities.ClientAuthority.ClientNetworkAnimator
     - Unity.Multiplayer.Samples.Utilities.ClientAuthority.ClientNetworkTransform
     Unity.Netcode.Components.dll:
     - Unity.Netcode.Components.NetworkRigidbody2D
     Unity.Netcode.Editor.dll:
     - Unity.Netcode.Editor.Configuration.NetcodeForGameObjectsProjectSettings
-    - Unity.Netcode.Editor.NetworkObjectEditor
-    - Unity.Netcode.Editor.NetworkTransformEditor
     Unity.Netcode.Runtime.dll:
     - Unity.Netcode.NetworkManager
     - Unity.Netcode.NetworkObject
+    - Unity.Netcode.NetworkPrefabsList
     - Unity.Netcode.Transports.UTP.UnityTransport
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -48,8 +70,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -62,9 +86,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RectMask2D
   serializedClasses:
     Unity.Netcode.Runtime:
     - Unity.Netcode.NetworkConfig
+    - Unity.Netcode.NetworkPrefab
     - Unity.Netcode.NetworkPrefabs
     - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
     - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters
@@ -78,6 +105,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -112,14 +144,29 @@ ScriptsOnlyBuild:
     - UnityEngine.UIElements.StyleValueHandle
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: ServerController
-    methodName: StartClient
+    fullTypeName: LobbyUIManager
+    methodName: OpenCreateLobbyMenu
   - assembly: Assembly-CSharp
-    fullTypeName: ServerController
-    methodName: StartServer
+    fullTypeName: LobbyUIManager
+    methodName: StartGame
   - assembly: Assembly-CSharp
-    fullTypeName: ServerController
-    methodName: StartHost
+    fullTypeName: LobbyUIManager
+    methodName: leaveToMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: LobbyUIManager
+    methodName: OpenConnectLobby
+  - assembly: Assembly-CSharp
+    fullTypeName: LobbyUIManager
+    methodName: ConnectToLobby
+  - assembly: Assembly-CSharp
+    fullTypeName: LobbyUIManager
+    methodName: CreateLobby
+  - assembly: Assembly-CSharp
+    fullTypeName: InGameUIController
+    methodName: Exit
+  - assembly: Assembly-CSharp
+    fullTypeName: InGameUIController
+    methodName: Exit
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -134,9 +181,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -151,6 +198,117 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1696}
+    - Class: 114
+      Script: {instanceID: 2230}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2762}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3432}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3634}
+    - Class: 114
+      Script: {instanceID: 4092}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4578}
+    - Class: 114
+      Script: {instanceID: 4632}
+    - Class: 114
+      Script: {instanceID: 5764}
+    - Class: 114
+      Script: {instanceID: 5870}
+    - Class: 114
+      Script: {instanceID: 6004}
+    - Class: 114
+      Script: {instanceID: 6194}
+    - Class: 114
+      Script: {instanceID: 6500}
+    - Class: 114
+      Script: {instanceID: 6552}
+    - Class: 114
+      Script: {instanceID: 7016}
+    - Class: 114
+      Script: {instanceID: 7170}
+    - Class: 114
+      Script: {instanceID: 7500}
+    - Class: 114
+      Script: {instanceID: 8442}
+    - Class: 114
+      Script: {instanceID: 8690}
+    - Class: 114
+      Script: {instanceID: 9240}
+    - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 10190}
+    - Class: 114
+      Script: {instanceID: 10340}
+    - Class: 114
+      Script: {instanceID: 10446}
+    - Class: 114
+      Script: {instanceID: 10684}
+    - Class: 114
+      Script: {instanceID: 10820}
+    - Class: 114
+      Script: {instanceID: 11128}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 11452}
+    - Class: 114
+      Script: {instanceID: 12124}
+    - Class: 114
+      Script: {instanceID: 27684}
+    - Class: 114
+      Script: {instanceID: 78632}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
       Script: {instanceID: 684}
     - Class: 114
       Script: {instanceID: 686}
@@ -159,43 +317,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 2758}
-    - Class: 114
-      Script: {instanceID: 3262}
-    - Class: 114
-      Script: {instanceID: 3576}
-    - Class: 114
-      Script: {instanceID: 3628}
+      Script: {instanceID: 3582}
     - Class: 114
       Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 5798}
+      Script: {instanceID: 4100}
     - Class: 114
-      Script: {instanceID: 6174}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 7476}
+      Script: {instanceID: 6280}
     - Class: 114
-      Script: {instanceID: 8418}
+      Script: {instanceID: 7154}
     - Class: 114
-      Script: {instanceID: 8666}
+      Script: {instanceID: 7500}
     - Class: 114
-      Script: {instanceID: 9216}
+      Script: {instanceID: 8442}
     - Class: 114
-      Script: {instanceID: 10312}
+      Script: {instanceID: 8690}
     - Class: 114
-      Script: {instanceID: 10418}
+      Script: {instanceID: 9240}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 36630}
     - Class: 114
-      Script: {instanceID: 12088}
+      Script: {instanceID: 36638}
+    - Class: 114
+      Script: {instanceID: 59456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,6 +381,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: fa1b0541f940133d4d1b121355dd6051
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerUIController
+  - hash:
+      serializedVersion: 2
+      Hash: 069c4189508d86fe20b3b963f19f293a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonScript
   - hash:
       serializedVersion: 2
       Hash: 61f2059db36c32396c3d12077855592b
@@ -427,6 +593,12 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 39ba5e73b267df86a9bd36001b5e9dbc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
       Hash: ba62abe34655d7e7cd27c0bf1fa1b39d
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
@@ -457,7 +629,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 0a428134c63c1590736f13f0ff9cb07c
+      Hash: 57196f165bfde12b3bc977ee1ec3fa68
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputController
@@ -529,6 +701,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 606e780b226a522ba523fd01ff8899e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConnectionInfo
+  - hash:
+      serializedVersion: 2
       Hash: ca3c715b2b37e6685a9585341fed70f3
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -587,6 +765,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a5f1a3592ab3aff87c5634696234a86c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinsPool
+  - hash:
+      serializedVersion: 2
+      Hash: 65d2538b7e4179ba9b3a73980aca6f3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixedMoveByX
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -709,6 +899,12 @@ ScriptsOnlyBuild:
     className: CustomTestDataGenerator
   - hash:
       serializedVersion: 2
+      Hash: 361e2e1cc7c7296a271d3b71d21227c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovementController
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -727,10 +923,22 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 89e66df1106b55369c53293d2adeeb13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TTL
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
@@ -761,6 +969,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: 116322ad5f5686ed1a0a7db501bbc563
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollissionController
   - hash:
       serializedVersion: 2
       Hash: 284811a37cb8cae09f777961ae2a254c
@@ -809,6 +1023,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerCollissionController
   - hash:
       serializedVersion: 2
       Hash: 824e8d4cb47ffd88ddf959dbd4526585
@@ -1081,6 +1301,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 39c4ff8cf277ce595d54d476a139f106
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HP
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Multiplayer.Tools.NetStatsReporting.dll
     namespaceName: Unity.Multiplayer.Tools.NetStatsReporting
@@ -1145,6 +1371,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 64d88ca48adf9525f1c0b091c7ad4a4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinsGenerator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1231,10 +1463,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 39a051258f413c9be56ee935faa7fe0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SessionManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d1b5df15e14bf339e67d52a1820151dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShootController
   - hash:
       serializedVersion: 2
       Hash: 3ee38dae950a2169533c65ccdabe70cc
@@ -1253,6 +1497,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputMessageController
+  - hash:
+      serializedVersion: 2
+      Hash: 18e76f707494a5fafcb9634f73ce1053
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressBar
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1351,7 +1607,7 @@ ScriptsOnlyBuild:
     className: UnityOnToggleValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 95117cb41930a12a9b91a976ac53f10d
+      Hash: 65fd8f7a9daa34fdf29f1a0fe133965f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterController
@@ -1379,7 +1635,50 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffd56adab70fb44c4455e734b8730ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneLoadingController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Lobbies.dll
+    namespaceName: Unity.Services.Lobbies.Scheduler
+    className: TaskSchedulerThreaded
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Lobbies.dll
+    namespaceName: Unity.Services.Lobbies.Scheduler
+    className: TaskSchedulerWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebb627891d457114c6a640947cd4c4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: d3efe3a46997c0ed67d9d47d3d54739a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LobbyUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: bbf5dc992e8f0270fd0f99ad4f4e5349
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RelayController
+  - hash:
+      serializedVersion: 2
+      Hash: b5b6a46a0be8c1c6560002ec980e546b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InGameUIController
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
   playerPath: E:/UnityProjects/Pixel Hunter/1.apk

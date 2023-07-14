@@ -18,6 +18,15 @@ public class ShootController : NetworkBehaviour
         GameObject bullet = Instantiate(_bulletPrefab);
         bullet.transform.position = _spawnPosition.position;
         bullet.GetComponent<FixedMoveByX>().Direction = direction;
+        bullet.GetComponent<TTL>().OnTTLEnd = () =>
+        {
+            bullet.GetComponent<NetworkObject>().Despawn();
+        };
+        bullet.GetComponent<CollissionController>().OnCollissionTriggered = (player) => {
+            
+            bullet.GetComponent<NetworkObject>().Despawn();
+        };
+        bullet.GetComponent<NetworkObject>().Spawn();
         StartCoroutine("Reload");
     }
     IEnumerator Reload()

@@ -6,9 +6,10 @@ using UnityEngine;
 public class HP : MonoBehaviour
 {
     public Action OnZeroHP;
+    public Action<int> OnHPChange;
     public int HealthPoints { get => _healthPoints; set => ChangeHP(value); }
     
-    private int _healthPoints;
+    [SerializeField] private int _healthPoints;
 
     private void ChangeHP(int newHP)
     {
@@ -20,6 +21,9 @@ public class HP : MonoBehaviour
         else
         {
             _healthPoints = newHP;
+            Debug.Log("Hp changed" + newHP);
+            Debug.Log(OnHPChange);
+            OnHPChange?.Invoke(newHP);
         }
     }
 }

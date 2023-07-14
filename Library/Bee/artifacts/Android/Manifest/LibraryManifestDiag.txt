@@ -11,6 +11,7 @@ android.permission.INTERNET was added because:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
+		Unity.Services.Lobbies-FeaturesChecked.txt
 		Unity.Services.QoS-FeaturesChecked.txt
 		Unity.Services.Relay-FeaturesChecked.txt
 	System.Net.Sockets was present in:
@@ -21,6 +22,7 @@ android.permission.INTERNET was added because:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
+		Unity.Services.Lobbies-FeaturesChecked.txt
 		Unity.Services.QoS-FeaturesChecked.txt
 		Unity.Services.Relay-FeaturesChecked.txt
 	UnityEngine.Networking.UnityWebRequest was present in:
@@ -28,6 +30,7 @@ android.permission.INTERNET was added because:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
+		Unity.Services.Lobbies-FeaturesChecked.txt
 		Unity.Services.QoS-FeaturesChecked.txt
 		Unity.Services.Relay-FeaturesChecked.txt
 android.permission.ACCESS_NETWORK_STATE was added because:

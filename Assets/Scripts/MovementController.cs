@@ -2,8 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class MovementController : MonoBehaviour
+using Unity.Netcode;
+public class MovementController : NetworkBehaviour
 {
     public Action OnMove;
 

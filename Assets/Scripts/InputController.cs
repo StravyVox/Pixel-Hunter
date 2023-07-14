@@ -19,7 +19,7 @@ public class InputController : MonoBehaviour
     private FloatingJoystick _joystickHandler;
     private bool _touch = false;
 
-    private void Start()
+    private void Awake()
     {
         _jumpButton.onClick.AddListener(() => { OnJump?.Invoke(); });
         _shootButton.onClick.AddListener(() => { OnShoot?.Invoke(); });

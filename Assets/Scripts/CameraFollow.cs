@@ -22,9 +22,16 @@ public class CameraFollow : NetworkBehaviour
     }
     private void FixedUpdate()
     {
-        _position = _camera.transform.position;
-        _position.x = Mathf.Lerp(_camera.transform.position.x, transform.position.x, Time.fixedDeltaTime * _followSpeed);
-        _camera.transform.position = _position;
+        if (_camera != null)
+        {
+            _position = _camera.transform.position;
+            _position.x = Mathf.Lerp(_camera.transform.position.x, transform.position.x, Time.fixedDeltaTime * _followSpeed);
+            _camera.transform.position = _position;
+        }
+        else
+        {
+            _camera = Camera.main;
+        }
     }
 
 }
