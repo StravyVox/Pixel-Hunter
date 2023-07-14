@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Provides button logic for UI elements in Menu Scene
+/// Also calls provided methods from LobbyManager and changes UI depending on the answer
+/// </summary>
 public class LobbyUIManager : MonoBehaviour
 {
     [SerializeField] private LobbyManager _lobbyManager;
@@ -36,6 +40,8 @@ public class LobbyUIManager : MonoBehaviour
         };
         _lobbyManager.OnConnectedToLobby += () =>
         {
+
+            _LobbyNameTextArea.text = _LobbyEnterCode.text;
             _waitingScreenUILayout.SetActive(false);
             _lobbyUILayout.SetActive(true);
 

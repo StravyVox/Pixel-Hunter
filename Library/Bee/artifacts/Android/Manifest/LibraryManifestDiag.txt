@@ -2,8 +2,6 @@ Using template 'E:/UnityEditors/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/And
 
 android.hardware.vulkan.version was added because:
 	One of the graphics devices was Vulkan
-supports-gl-texture elements added because:
-	TextureSupport was not set to generic
 android.permission.INTERNET was added because:
 	UnityEngine.Networking was present in:
 		Unity.Netcode.Runtime-FeaturesChecked.txt

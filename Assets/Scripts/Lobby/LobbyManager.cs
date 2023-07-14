@@ -10,6 +10,11 @@ using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+/// <summary>
+/// Manager, that controls work with Lobby interface and give an ability
+/// for players to connect to lobby;
+/// </summary>
 public class LobbyManager : MonoBehaviour
 {
     public Action OnConnectingToGame;
@@ -18,8 +23,8 @@ public class LobbyManager : MonoBehaviour
     public Action<string> OnCreatedLobby;
     public Action OnError;
 
-    [SerializeField] private int _amountOfPlayers;
-    [SerializeField] private float _lobbyKeeperDelayTime;
+    [SerializeField] private int _amountOfPlayers; // max amount of players in lobby
+    [SerializeField] private float _lobbyKeeperDelayTime; 
     [SerializeField] private RelayController _relayController;
     [SerializeField] private String _loadingScene;
     private float _timerForAlive;
@@ -28,19 +33,30 @@ public class LobbyManager : MonoBehaviour
     private Lobby _lobby;
     private async void Start()
     {
-        await UnityServices.InitializeAsync();
-
-        AuthenticationService.Instance.SignedIn += () =>
+        try
         {
+            await UnityServices.InitializeAsync();
 
-        };
-        await AuthenticationService.Instance.SignInAnonymouslyAsync();
+            AuthenticationService.Instance.SignedIn += () =>
+            {
+
+            };
+            await AuthenticationService.Instance.SignInAnonymouslyAsync();
+        }
+        catch(Exception e) 
+        {
+            Debug.Log(e);
+        }
     }
     private void Update()
     {
         keepLobbyAlive();
         keepLobbyUpdated();
     }
+    /// <summary>
+    /// Updating lobby info once in _timerForPolling value
+    /// 
+    /// </summary>
     private async void keepLobbyUpdated()
     {
         if (_lobby != null)
@@ -48,22 +64,31 @@ public class LobbyManager : MonoBehaviour
             _timerForPolling -= Time.deltaTime;
             if (_timerForPolling < 0)
             {
-                _timerForPolling = 1.1f;
-                _lobby = await LobbyService.Instance.GetLobbyAsync(_lobby.Id);
-                if (_lobby.Data["relay_ready"].Value != "0")
+                try
                 {
-                    if(AuthenticationService.Instance.PlayerId != _lobby.HostId)
+                    _timerForPolling = 1.1f;
+                    _lobby = await LobbyService.Instance.GetLobbyAsync(_lobby.Id);
+                    if (_lobby.Data["relay_ready"].Value != "0") //Check if connection info (Relay joinCode) for game is ready
                     {
-                        _relayController.OnJoinedRelay = () => SceneManager.LoadScene(_loadingScene,LoadSceneMode.Single);
-                        _relayController.JoinRelay(_lobby.Data["relay_ready"].Value);
-                        OnConnectingToGame?.Invoke();
+                        if (AuthenticationService.Instance.PlayerId != _lobby.HostId) //Only clients can Join relay. Host already joined
+                        {
+                            _relayController.OnJoinedRelay = () => SceneManager.LoadScene(_loadingScene, LoadSceneMode.Single);
+                            _relayController.JoinRelay(_lobby.Data["relay_ready"].Value);
+                            OnConnectingToGame?.Invoke();
+                        }
                     }
+                    checkLobbyForNewPlayer();
                 }
-                checkLobbyForNewPlayer();
-
+                catch
+                {
+                    _lobby = null;
+                }
             }
         }
     }
+    /// <summary>
+    /// Check for income players and call an Action if any new players connected
+    /// </summary>
     private void checkLobbyForNewPlayer()
     {
         if (_lobby != null) {
@@ -74,7 +99,10 @@ public class LobbyManager : MonoBehaviour
             }
         }
     }
-    private async void keepLobbyAlive()
+    /// <summary>
+    /// HOST method to avoid lobby deletion
+    /// </summary>
+    private async void keepLobbyAlive() 
     {
        if(_lobby != null && _lobby.HostId == AuthenticationService.Instance.PlayerId)
         {
@@ -86,6 +114,10 @@ public class LobbyManager : MonoBehaviour
             }
         }
     }
+    /// <summary>
+    /// Host method to create lobby with defined name
+    /// </summary>
+    /// <param name="name"></param>
     public async void CreateLobby(string name)
     {
         try
@@ -94,7 +126,7 @@ public class LobbyManager : MonoBehaviour
                 IsPrivate = false,
                 Data = new Dictionary<string, DataObject>
                 {
-                    {"relay_ready", new DataObject(DataObject.VisibilityOptions.Member, "0") }
+                    {"relay_ready", new DataObject(DataObject.VisibilityOptions.Member, "0") } //Setting data for Relay Connection Info.
                 } 
             });
             checkLobbyForNewPlayer();
@@ -106,10 +138,15 @@ public class LobbyManager : MonoBehaviour
             OnError?.Invoke();
         }
     }
-    
+    /// <summary>
+    /// CLIENT method to connect by name
+    /// Using QuickJoinLobby method, that provides options for filtering lobbies
+    /// In this script filter works by the name of Lobby
+    /// </summary>
+    /// <param name="lobbyName"></param>
     public async void ConnectToLobby(string lobbyName)
     {
-        try
+        try 
         {
             lobbyName = lobbyName.Substring(0, lobbyName.Length-1);
             Lobby connectedlobby = await Lobbies.Instance.QuickJoinLobbyAsync(new QuickJoinLobbyOptions() { Filter = new List<QueryFilter>() { new QueryFilter(QueryFilter.FieldOptions.Name, lobbyName, QueryFilter.OpOptions.CONTAINS) } }); 
@@ -124,6 +161,9 @@ public class LobbyManager : MonoBehaviour
         }
 
     }
+    /// <summary>
+    /// Leavng lobby and setting null for next connections
+    /// </summary>
     public async void LeaveLobby()
     {
         try
@@ -137,14 +177,17 @@ public class LobbyManager : MonoBehaviour
             OnError?.Invoke();
         }
     }
-    public async void StartGame()
+    /// <summary>
+    /// HOST method, that calls RelayController logic for creating Relay joinCode
+    /// </summary>
+    public void StartGame()
     {
         if(_lobby.HostId == AuthenticationService.Instance.PlayerId)
         {
             _relayController.OnCreatedRelay = async (joinCode) =>
             {
                 OnConnectingToGame?.Invoke();
-                _lobby = await Lobbies.Instance.UpdateLobbyAsync(_lobby.Id, new UpdateLobbyOptions()
+                _lobby = await Lobbies.Instance.UpdateLobbyAsync(_lobby.Id, new UpdateLobbyOptions() //Updating lobby data with given joinCode
                 {
                     Data = new Dictionary<string, DataObject>()
                     {
@@ -152,7 +195,7 @@ public class LobbyManager : MonoBehaviour
                     }
                 });
 
-                SceneManager.LoadScene(_loadingScene, LoadSceneMode.Single);
+                SceneManager.LoadScene(_loadingScene, LoadSceneMode.Single); //Moving to the Game Scene
             };
             _relayController.CreateRelay();
         }

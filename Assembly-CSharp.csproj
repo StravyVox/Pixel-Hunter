@@ -56,36 +56,34 @@
     <Analyzer Include="E:\Software\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerUIController.cs" />
-    <Compile Include="Assets\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerUIController.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\InputController.cs" />
-    <Compile Include="Assets\Scripts\ConnectionInfo.cs" />
-    <Compile Include="Assets\Scripts\CoinsPool.cs" />
-    <Compile Include="Assets\Scripts\FixedMoveByX.cs" />
-    <Compile Include="Assets\Scripts\MovementController.cs" />
-    <Compile Include="Assets\Scripts\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\TTL.cs" />
-    <Compile Include="Assets\Scripts\CollissionController.cs" />
-    <Compile Include="Assets\Scripts\PlayerCollissionController.cs" />
+    <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Player\InputController.cs" />
+    <Compile Include="Assets\Scripts\Scriptable Objects\ConnectionInfo.cs" />
+    <Compile Include="Assets\Scripts\Game session\CoinsPool.cs" />
+    <Compile Include="Assets\Scripts\Global GameObject scripts\FixedMoveByX.cs" />
+    <Compile Include="Assets\Scripts\Player\MovementController.cs" />
+    <Compile Include="Assets\Scripts\Game session\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\UI\InGameUIController.cs" />
+    <Compile Include="Assets\Scripts\Global GameObject scripts\TTL.cs" />
+    <Compile Include="Assets\Scripts\Global GameObject scripts\CollissionController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCollissionController.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-    <Compile Include="Assets\Scripts\HP.cs" />
-    <Compile Include="Assets\Scripts\CoinsGenerator.cs" />
+    <Compile Include="Assets\Scripts\Global GameObject scripts\HP.cs" />
+    <Compile Include="Assets\Scripts\Game session\SceneConnectingController.cs" />
+    <Compile Include="Assets\Scripts\Game session\CoinsGenerator.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Scripts\SessionManager.cs" />
-    <Compile Include="Assets\Scripts\ShootController.cs" />
-    <Compile Include="Assets\Scripts\InputMessageController.cs" />
-    <Compile Include="Assets\Scripts\ProgressBar.cs" />
-    <Compile Include="Assets\Scripts\ServerController.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
-    <Compile Include="Assets\Scripts\SceneLoadingController.cs" />
-    <Compile Include="Assets\Scripts\Lobby\LobbyManager.cs" />
-    <Compile Include="Assets\Scripts\Lobby\LobbyUIManager.cs" />
+    <Compile Include="Assets\Scripts\Game session\SessionManager.cs" />
+    <Compile Include="Assets\Scripts\Player\ShootController.cs" />
     <Compile Include="Assets\Scripts\Lobby\RelayController.cs" />
-    <Compile Include="Assets\Scripts\InGameUIController.cs" />
+    <Compile Include="Assets\Scripts\Player\InputMessageController.cs" />
+    <Compile Include="Assets\Scripts\UI\ProgressBar.cs" />
+    <Compile Include="Assets\Scripts\Lobby\LobbyUIManager.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\Lobby\LobbyManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -865,6 +863,9 @@
     <Reference Include="Unity.Tutorials.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Services.Lobbies">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Lobbies.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -990,9 +991,6 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.MetricEvents">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Tools.MetricEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Lobbies">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Lobbies.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

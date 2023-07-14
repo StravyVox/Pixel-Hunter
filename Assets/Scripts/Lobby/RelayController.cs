@@ -5,12 +5,24 @@ using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
 using UnityEngine;
 
+/// <summary>
+/// Relay Unity controller script provides functions for creating and joining relay
+/// It used for creatind dedicated server
+/// All connection info is stored in Scriptable Object
+/// </summary>
 public class RelayController : MonoBehaviour
 {
-    public Action<string> OnCreatedRelay;
+    /// <summary>
+    /// Actions for providing info about connection process
+    /// </summary>
+    public Action<string> OnCreatedRelay; 
     public Action OnJoinedRelay;
-    [SerializeField] ConnectionInfo _connectionInfoHandler;
 
+    [SerializeField] ConnectionInfo _connectionInfoHandler; //Scriptable object
+
+    /// <summary>
+    /// HOST method to create dedicated server and store data to connectionInfoHandler
+    /// </summary>
     public async void CreateRelay()
     {
         try
@@ -27,6 +39,10 @@ public class RelayController : MonoBehaviour
             Debug.LogException(ex);
         }
     }
+    /// <summary>
+    /// CLIENT method to connect to dedicated server by relay joinCode and store data to connectionInfoHandler
+    /// </summary>
+    /// <param name="joinCode"></param>
     public async void JoinRelay(string joinCode)
     {
         try

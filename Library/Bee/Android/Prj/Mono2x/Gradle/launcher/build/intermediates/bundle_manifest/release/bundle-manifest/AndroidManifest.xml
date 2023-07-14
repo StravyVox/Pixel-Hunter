@@ -21,8 +21,6 @@
         android:name="android.hardware.vulkan.version"
         android:required="false" />
 
-    <supports-gl-texture android:name="GL_IMG_texture_compression_pvrtc" />
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -47,7 +45,7 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="userLandscape"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

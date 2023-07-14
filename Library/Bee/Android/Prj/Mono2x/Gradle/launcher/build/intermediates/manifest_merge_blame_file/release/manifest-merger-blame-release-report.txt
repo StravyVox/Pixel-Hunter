@@ -34,117 +34,113 @@
 22        android:required="false" />
 22-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
 23
-24    <supports-gl-texture android:name="GL_IMG_texture_compression_pvrtc" />
-24-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-76
-24-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:26-73
-25
-26    <uses-permission android:name="android.permission.INTERNET" />
-26-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-67
-26-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-64
-27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-27-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-79
-27-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:22-76
-28
-29    <uses-feature
-29-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
-30        android:name="android.hardware.touchscreen"
-30-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-52
-31        android:required="false" />
-31-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
-32    <uses-feature
-32-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
-33        android:name="android.hardware.touchscreen.multitouch"
-33-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-63
-34        android:required="false" />
-34-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
-35    <uses-feature
-35-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:36
-36        android:name="android.hardware.touchscreen.multitouch.distinct"
-36-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-72
-37        android:required="false" />
-37-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-33
-38
-39    <application
-39-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
-40        android:extractNativeLibs="true"
-40-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:18-50
-41        android:icon="@mipmap/app_icon"
-41-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
-42        android:label="@string/app_name" >
-42-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
-43        <activity
-43-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-54:20
-44            android:name="com.unity3d.player.UnityPlayerActivity"
-44-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-66
-45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-45-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-194
-46            android:exported="true"
-46-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-36
-47            android:hardwareAccelerated="false"
-47-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-48
-48            android:launchMode="singleTask"
-48-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-44
-49            android:resizeableActivity="false"
-49-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-47
-50            android:screenOrientation="fullUser"
-50-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-49
-51            android:theme="@style/UnityThemeSelector" >
-51-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-54
-52            <intent-filter>
-52-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-46:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-69
-53-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:25-66
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-77
-55-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:27-74
-56            </intent-filter>
-57
-58            <meta-data
-58-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
-59                android:name="unityplayer.UnityActivity"
-59-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-57
-60                android:value="true" />
-60-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
-61            <meta-data
-61-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-53:40
-62                android:name="android.notch_support"
-62-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-53
-63                android:value="true" />
-63-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-37
-64        </activity>
-65
-66        <meta-data
-66-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:33
-67            android:name="unity.splash-mode"
-67-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-45
-68            android:value="0" />
-68-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-30
-69        <meta-data
-69-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
-70            android:name="unity.splash-enable"
-70-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-47
-71            android:value="True" />
-71-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
-72        <meta-data
-72-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:36
-73            android:name="unity.launch-fullscreen"
-73-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-51
-74            android:value="True" />
-74-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-33
-75        <meta-data
-75-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:37
-76            android:name="unity.allow-resizable-window"
-76-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-56
-77            android:value="False" />
-77-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-34
-78        <meta-data
-78-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:50
-79            android:name="notch.config"
-79-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-40
-80            android:value="portrait|landscape" />
-80-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-47
-81    </application>
-82
-83</manifest>
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-76
+26
+27    <uses-feature
+27-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+29        android:required="false" />
+29-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+32        android:required="false" />
+32-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+35        android:required="false" />
+35-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36
+37    <application
+37-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:18-50
+39        android:icon="@mipmap/app_icon"
+39-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+40        android:label="@string/app_name" >
+40-->E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+41        <activity
+41-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-52:20
+42            android:name="com.unity3d.player.UnityPlayerActivity"
+42-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-66
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-194
+44            android:exported="true"
+44-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36
+45            android:hardwareAccelerated="false"
+45-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+46            android:launchMode="singleTask"
+46-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-44
+47            android:resizeableActivity="false"
+47-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-47
+48            android:screenOrientation="userLandscape"
+48-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+49            android:theme="@style/UnityThemeSelector" >
+49-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-54
+50            <intent-filter>
+50-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:17-69
+51-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-77
+53-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:27-74
+54            </intent-filter>
+55
+56            <meta-data
+56-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-48:40
+57                android:name="unityplayer.UnityActivity"
+57-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-57
+58                android:value="true" />
+58-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:17-37
+59            <meta-data
+59-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-51:40
+60                android:name="android.notch_support"
+60-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-53
+61                android:value="true" />
+61-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-37
+62        </activity>
+63
+64        <meta-data
+64-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:9-56:33
+65            android:name="unity.splash-mode"
+65-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-45
+66            android:value="0" />
+66-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-30
+67        <meta-data
+67-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:9-59:36
+68            android:name="unity.splash-enable"
+68-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-47
+69            android:value="True" />
+69-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-33
+70        <meta-data
+70-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:36
+71            android:name="unity.launch-fullscreen"
+71-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-51
+72            android:value="True" />
+72-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-33
+73        <meta-data
+73-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:37
+74            android:name="unity.allow-resizable-window"
+74-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-56
+75            android:value="False" />
+75-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-34
+76        <meta-data
+76-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:50
+77            android:name="notch.config"
+77-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-40
+78            android:value="portrait|landscape" />
+78-->[:unityLibrary] E:\UnityProjects\Pixel Hunter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-47
+79    </application>
+80
+81</manifest>
